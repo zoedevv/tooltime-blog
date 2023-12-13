@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Zoe's Tooltime Corner"
+theme = 'hugo-paper'
