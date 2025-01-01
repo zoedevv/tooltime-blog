@@ -2,3 +2,12 @@ baseURL = 'https://zoedevv.github.io/tooltime-blog/'
 languageCode = 'en-us'
 title = "Zoe's Tooltime Corner"
 theme = 'hugo-paper'
+
+[outputs]
+home = ["HTML", "RSS", "SITEMAP"] # Ensure the sitemap is an output type
+
+[sitemap]
+filename = "sitemap.xml" # The default filename for the sitemap
+priority = 0.5          # Default priority for pages in the sitemap
+changefreq = "monthly"  # Frequency of content updates
+lastmod = true          # Use the last modified date for pages
